@@ -1,0 +1,5 @@
+a {
+    --colors: red, blue, green, purple;
+
+    color: --colors;
+}
