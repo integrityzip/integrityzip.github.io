@@ -1,5 +1,9 @@
-a {
-    --colors: red, blue, green, purple;
+body {
+    background-color: red;
+}
 
-    color: --colors;
+@media only screen and (max-width: 400){
+    body {
+        background-color: blue;
+    }
 }
